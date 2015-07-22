@@ -97,20 +97,21 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
-            <version>1.6.4-R2.0</version>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.8.7-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>net.kencochrane.raven</groupId>
-            <artifactId>raven-log4j</artifactId>
-            <version>4.1.2</version>
         </dependency>
         <dependency>
             <groupId>net.kencochrane.raven</groupId>
             <artifactId>raven</artifactId>
             <version>4.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>de.doridian</groupId>
+            <artifactId>ConfigDependency</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
@@ -118,6 +119,10 @@
         <repository>
             <id>repobo-snap</id>
             <url>http://repo.bukkit.org/content/groups/public</url>
+        </repository>
+        <repository>
+            <id>doridian-repo</id>
+            <url>http://repo.doridian.de/</url>
         </repository>
     </repositories>
 </project>

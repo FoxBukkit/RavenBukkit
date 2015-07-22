@@ -1,3 +1,4 @@
 name: RavenBukkit
-main: de.doridian.ravenbukkit.RavenBukkit
+main: com.foxelbox.ravenbukkit.RavenBukkit
 version: 1.0.0
+load: startup
