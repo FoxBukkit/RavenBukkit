@@ -51,8 +51,6 @@ public class RavenBukkit extends JavaPlugin {
         for(Plugin plugin : Bukkit.getPluginManager().getPlugins()) {
             __addHandlerToLogging(plugin.getLogger());
         }
-
-        getLogger().severe("BAD");
     }
 
     private void __addHandlerToLogging(java.util.logging.Logger logger) {
